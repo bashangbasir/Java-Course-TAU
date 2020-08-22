@@ -18,7 +18,7 @@ public class LoanQualifier {
         System.out.println("Enter your years of employment: ");
         double yearsEmployed = Double.parseDouble(scanner.nextLine());
 
-        if (salary >= requiredYearsEmployed){
+        if (salary >= requireSalary){
             if (yearsEmployed >= requiredYearsEmployed){
                 System.out.println("Congrats! You are qualified for the loan.");
             }

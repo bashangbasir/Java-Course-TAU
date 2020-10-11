@@ -16,6 +16,5 @@ public class Farm {
 
         Duck duck2 = new Duck();
         duck2.makeSound();
-
     }
 }
